@@ -1,0 +1,32 @@
+.card-largura{
+    max-width: 18rem;
+    height: 30px;
+    width: 20px;
+}
+
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 90%;
+    height:400px;
+
+
+}
+.fonte{
+    font-family: "Roboto", sans-serif;
+    height: 60px;
+}
+.cor-especial{
+    color: #80754f;
+}
+.borda-cor-especial{
+    border-color:black;
+    height: 190px;
+}
+.card-posicao-imagem{
+    object-fit: cover;
+    object-position: 0 20%;
+    height: 180px;
+}
+.table-borda{
+    border-collapse: collapse;
+}
