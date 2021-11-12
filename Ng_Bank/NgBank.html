@@ -42,6 +42,33 @@
     </div>
 </section>-->
 <section id="titulo">
+    <itle> Pop-up teste</itle>
+    <meta charset="utf-8">
+    <style>
+        .popup{
+            position:fixed;
+            top: 0; bottom: 0;
+            left: 0; right: 0;
+            margin: auto;
+            width: 300px;
+            height: 180px;
+            padding: 15px;
+            border: solid 1px #80754f;
+            background: #80754f;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function abrir(){
+            document.getElementById('popup').style.display= 'block';
+            let style;
+            style.display = 'block';
+        }
+        function fechar(){
+            document.getElementById('popup').style.display = 'none';
+
+        }
+    </script>
 
 
 </section>
@@ -168,17 +195,14 @@
         </article>
     </div>
 </section>
-<!--<p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
 
-<script src=""></script>-->
-</section>
+</body>
+<body>
+    <div id="popup" class="popup">
+        <img src="" alt="">
+        <h1 class="text-center font-second">Venda</h1>
+    </div>
+    <!--ações para o popup-->
+<a href="javascript: abrir();">Abrir Pop-up</a>
+<a href="javascript: fechar();">Fechar Pop-up</a>
 </body>
