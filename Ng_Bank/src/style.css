@@ -8,8 +8,6 @@
     object-fit: cover;
     object-position: 0 90%;
     height:400px;
-
-
 }
 .fonte{
     font-family: "Roboto", sans-serif;
@@ -21,12 +19,22 @@
 .borda-cor-especial{
     border-color:black;
     height: 190px;
+
 }
 .card-posicao-imagem{
     object-fit: cover;
-    object-position: 0 20%;
+    object-position: 0 80%;
     height: 180px;
 }
 .table-borda{
     border-collapse: collapse;
+}
+.font-second{
+
+    color: orangered;
+    font-family:"Puppies Play", cursive;
+}
+.card-venda{
+    width: auto;
+    height:100%;
 }
