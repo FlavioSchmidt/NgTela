@@ -58,38 +58,27 @@
 
     <article class="popup card-body">
 
-        <img src="img/imagem%20a%20ser%20usada.jpeg" alt="" width="700" height="400" >
+        <img src="img/imagemAserUsada.jpeg" alt="" width="700" height="400" >
         <div class="card-body">
 
         </div>
     </article>
-
-
-   <!-- <script type="text/javascript">
-        function abrir() {
-            document.getElementById('popup').style.display = 'block';
-        }
-        function fechar() {
-            document.getElementById('popup').style.display = 'none';
-        }
-    </script> -->
-
 
 </section>
 
 
 <section>
 
-    <h1 class="fonte text-center cor-especial pt-1">NG BANK</h1>
+    <h1 class="fonte text-center cor-especial pt-1  ">NG BANK</h1>
 </section>
 
 <section class="container-fluid bg-light table-borda" id="Demonstrativo">
     <div class="row justify-content-center">
 
         <article class="card-largura  col-12 m-5 col-md-4">
-            <img src="img/dia.jpg" class="card-img-top card-posicao-imagem" alt="">
+
             <div class="card-body">
-                <h5 class="card-title text-center "></h5>
+                <h1 class="card-title text-center font-second "> Destaques do Dia!</h1>
 
                 <p class="card-text"></p>
             </div>
@@ -123,10 +112,9 @@
 
         </article>
         <article class=" card-largura  col-12 m-5 col-md-4">
-            <img src="img/SEMANA%20.jpg"
-                 alt="Foto do Operador" class="card-img-top card-posicao-imagem">
+
             <div class="card-body">
-                <h5 class="card-title text-center"></h5>
+                <h1 class="card-title text-center font-second"> Destaques da Semana!</h1>
             </div>
         </article>
         <article class="card borda-cor-especial card-largura  col-12 m-5 col-md-4">
@@ -159,11 +147,9 @@
         </article>
 
         <article class=" card-largura  col-12 m-5 col-md-4">
-            <img src="img/MES%20.jpg"
-                 alt="Foto dos Operadores"
-                 class="card-img-top card-posicao-imagem">
+
             <div class="card-body">
-                <h5 class="card-title text-center"></h5>
+                <h1 class="card-title text-center font-second"> Destaques do Mês!</h1>
                 <p class="card-text"></p>
 
             </div>
@@ -213,15 +199,15 @@
 <!-- teste popup sumindo-->
 <script type="text/javascript">
 if($('.popup').length > 0) {
-
+    (window.location.href === '/')
 
 setTimeout(function(){
     $(".popup").fadeIn();
-    }, 4000); // 3000 = 3 segundos
+    }, 2000); // 3000 = 3 segundos
+setTimeout(function (){
+    $(".popup").fadeOut();
+}, 10000);
 
-    $('.popup ').click(function() {
-    $('.popup').fadeOut(400);
-    }, 6000);
     }
 </script>
 
