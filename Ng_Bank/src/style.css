@@ -54,3 +54,9 @@
     display: none;
     z-index: 10;
 }
+.img-teste{
+
+    width: 200px;
+    height: 800px;
+    object-fit: scale-down;
+}
